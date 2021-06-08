@@ -1,9 +1,9 @@
 class Aarch64UnknownLinuxGnu < Formula
   desc "Pre-built ARM/Linux C cross-compilers for MacOS"
-  homepage "https://github.com/thinkski/osx-arm-linux-toolchains"
-  url "https://github.com/CandySunPlus/homebrew-osx_arm_cross_toolchain/releases/download/8.3.0/aarch64-unknown-linux-gnu.tar.xz"
-  version "8.3.0"
-  sha256 "24318a26556b67b23d2527596c0118b997237d771e0cb5ea9eae7d4b8d784a39"
+  homepage "https://crosstool-ng.github.io/"
+  url "https://github.com/CandySunPlus/homebrew-osx_arm_cross_toolchain/releases/download/11.1.0/aarch64-unknown-linux-gnu.tar.xz"
+  version "11.1.0"
+  sha256 "3075fa5c4a7e5fe4ea39830cc71c3e65a8ccc957f0aeb61e0425d658e1028ba9"
 
   def install
     (prefix/"toolchain").install Dir["./*"]
